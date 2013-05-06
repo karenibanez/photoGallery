@@ -1,0 +1,18 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* 
+
+Title: Screen styles and IE/WIN patches
+Author: kibanez444@yahoo.com
+
+*/
+
+
+/* import stylesheets and hide from IE/MAC \*/
+
+@import url("reset.css");
+@import url("master.css");
+@import url("ie.css");
+
+/* end import/hide */

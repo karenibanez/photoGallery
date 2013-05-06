@@ -1,0 +1,127 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0;" />
+<title>Karen's Photo Gallery</title>
+<script type="text/javascript" src="js/jquery-1.4.2.js"></script>
+<script type="text/javascript" src="js/scripts.js"></script>
+<!--[if gte IE 7]><!-->
+<link rel="stylesheet" type="text/css" media="screen, projection" href="css/screen.css">
+<!-- <![endif]-->
+</head>
+
+<body onLoad="run();">
+<div id="wrapper" class="hideSmall">
+
+<div id="head">
+  <ul>
+  	<li><a href="index.html">photos</a></li>
+    <li><a href="mailto:kibanez444@yahoo.com">Karen Ibanez</a></li>
+  </ul>
+</div>
+
+<div id="slideshow">
+<div id="showlast">
+	<a href="#" onClick="move('P')"><img id="img1" name="img1"  src="" onmouseover="this.style.opacity=1;this.filters.alpha.opacity=100"
+     onmouseout="this.style.opacity=0.4;this.filters.alpha.opacity=40"></a>
+</div>
+
+<div id="main" class="page">
+  <img name=slideShow>
+<p id="caption">Caption for image</p>
+</div>
+
+<div id="shownext">
+	<a href="#" onClick="move('N')"><img id="img2" name="img2"  src="" onmouseover="this.style.opacity=1;this.filters.alpha.opacity=100"
+     onmouseout="this.style.opacity=0.4;this.filters.alpha.opacity=40"></a>
+</div>
+</div>
+
+
+
+
+</div>
+
+
+<!-- for small screen -->
+
+<div id="small" class="hide">
+<div id="head">
+	<div id="button" class="left col">
+    	<a class="button" href="#gallery" ontouchstart>Back to Gallery</a>
+    </div>
+</div>
+
+<div id="thumb">
+    <div id="item">
+      <a href="images/img1.jpg" title="Brooklyn Prospect Park"><img src="images/img1_th.jpg"></a>
+    </div>
+    <div id="item">
+      <a href="images/img2.jpg" title="Brooklyn BQE"><img src="images/img2_th.jpg"></a>
+    </div>
+    <div id="item">
+      <a href="images/img3.jpg" title="Brooklyn Bridge Park"><img src="images/img3_th.jpg"></a>
+    </div>
+    <div id="item">
+      <a href="images/img4.jpg" title="Brooklyn Ice Cream Factory"><img src="images/img4_th.jpg"></a>
+    </div>
+    <div id="item">
+      <a href="images/img5.jpg" title="Chicago Bean"><img src="images/img5_th.jpg"></a>
+    </div>
+    <div id="item">
+      <a href="images/img6.jpg" title="Chicago Crown Fountain"><img src="images/img6_th.jpg"></a>
+    </div>
+    <div id="item">
+      <a href="images/img7.jpg" title="Chicago Crown Fountain"><img src="images/img7_th.jpg"></a>
+    </div>
+    <div id="item">
+      <a href="images/img8.jpg" title="Chicago L train"><img src="images/img8_th.jpg"></a>
+    </div>
+    <div id="item">
+      <a href="images/img9.jpg" title="Hawaii Waikiki Beach"><img src="images/img9_th.jpg"></a>
+    </div>
+    <div id="item">
+      <a href="images/img10.jpg" title="Hawaii Oahu"><img src="images/img10_th.jpg"></a>
+    </div>
+    <div id="item">
+      <a href="images/img11.jpg" title="Hawaii Waikiki Beach"><img src="images/img11_th.jpg"></a>
+    </div>
+    <div id="item">
+      <a href="images/img12.jpg" title="Hawaii Oahu"><img src="images/img12_th.jpg"></a>
+    </div>
+    <div id="item">
+      <a href="images/img13.jpg" title="Japan Okinawa"><img src="images/img13_th.jpg"></a>
+    </div>
+    <div id="item">
+      <a href="images/img14.jpg" title="Japan Tokyo"><img src="images/img14_th.jpg"></a>
+    </div>
+    <div id="item">
+      <a href="images/img15.jpg" title="Japan Okinawa"><img src="images/img15_th.jpg"></a>
+    </div>
+    <div id="item">
+      <a href="images/img16.jpg" title="Japan Okinawa"><img src="images/img16_th.jpg"></a>
+    </div>
+    <div id="item">
+      <a href="images/img17.jpg" title="Seattle Space Needle"><img src="images/img17_th.jpg"></a>
+    </div>
+    <div id="item">
+      <a href="images/img18.jpg" title="Seattle Museum of Art"><img src="images/img18_th.jpg"></a>
+    </div>
+    <div id="item">
+      <a href="images/img19.jpg" title="Seattle Pike Place Market"><img src="images/img19_th.jpg"></a>
+    </div>
+    <div id="item">
+      <a href="images/img20.jpg" title="Seattle Original Starbucks"><img src="images/img20.jpg"></a>
+    </div>
+</div>
+
+<div id="content">
+  <img id="placeholder" src="" alt="image gallery" />
+  <p id="description">Select an image.</p>
+</div>
+
+</div>
+
+</body>
+</html>
